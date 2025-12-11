@@ -1,0 +1,6 @@
+name: Docs CI
+on: [push, pull_request]
+
+jobs:
+  docs:
+    uses: hellopaywaz/.github/.github/workflows/codeql-analysis.yml@main
