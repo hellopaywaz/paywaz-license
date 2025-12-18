@@ -1,7 +1,9 @@
 # paywaz-license
 
-A central repository containing the licensing terms for the Paywaz public projects.  
+A central repository containing the licensing terms for the Paywaz public projects.
 This repo holds the official license(s) under which Paywaz’s API, SDKs, documentation, samples, and other related repositories are distributed.
+
+The full license text lives in [`LICENSE.md`](./LICENSE.md).
 
 ---
 
@@ -21,7 +23,7 @@ This single place ensures license consistency across all Paywaz-branded public r
 - Consumers, contributors, and integrators have a clear, unambiguous statement of rights and restrictions upfront.  
 - Helps with compliance, audits, and clarity: everyone knows under what terms the code/documentation is licensed.  
 
-As per GitHub best practices: having a clearly defined license improves the transparency and trustworthiness of your public repositories. :contentReference[oaicite:1]{index=1}
+As per GitHub best practices: having a clearly defined license improves the transparency and trustworthiness of your public repositories.
 
 ---
 
