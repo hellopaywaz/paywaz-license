@@ -54,6 +54,21 @@ As per GitHub best practices: having a clearly defined license improves the tran
 2. If redistributing or modifying — ensure you comply with the license requirements (retaining copyright, disclaimers, attribution).  
 3. If contributing: assume contributions will be licensed under the same license (unless explicitly agreed otherwise).  
 
+### Local validation (repo health)
+
+This repository now ships a minimal health check harness to keep the legal assets intact:
+
+1. Install tooling once:  
+   ```bash
+   npm install
+   ```
+2. Run the golden commands:  
+   ```bash
+   npm run lint   # basic Markdown hygiene (no tabs/unintended trailing whitespace)
+   npm test       # verifies key legal files are present
+   npm run build  # runs the full validation chain
+   ```
+
 ---
 
 ## Feedback / Questions / Legal Inquiries

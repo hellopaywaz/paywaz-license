@@ -1,0 +1,16 @@
+{
+  "name": "paywaz-license",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Central licensing repository for Paywaz public projects.",
+  "scripts": {
+    "lint": "node scripts/lint.js",
+    "test": "node scripts/verify-license.js",
+    "build": "npm run lint && npm run test",
+    "start": "npm run lint"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
