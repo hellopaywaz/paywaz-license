@@ -1,4 +1,4 @@
-# paywaz-license
+# Paywaz License
 
 A central repository containing the licensing terms for the Paywaz public projects.
 This repo holds the official license(s) under which Paywaz’s API, SDKs, documentation, samples, and other related repositories are distributed.
